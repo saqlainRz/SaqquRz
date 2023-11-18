@@ -1,0 +1,71 @@
+.dark {
+  background-color: #ccc !important;
+}
+.dark #header .image_header {
+  border: 2px double;
+}
+.dark #banner {
+  background-color: #ccc;
+}
+
+.dark #banner .element-section ul a {
+  background-color: darkslategrey;
+}
+.dark #banner h1 {
+  color: darkcyan;
+}
+.dark #banner span {
+  color: #000;
+}
+.dark .nav-links .night-mode_header li a {
+  color: #000;
+}
+.dark #banner .animatedtext {
+  color: gold;
+}
+.dark .nave_header ul li a {
+  color: #000;
+}
+/* .dark .nave_header ul li {
+  border-bottom: 1px dashed #272525;
+} */
+.dark #my-services h4.card-title {
+  color: #000;
+}
+
+.dark #my-services p,
+h4.card-title {
+  color: #000;
+}
+
+.dark #my-services h1 {
+  color: #000;
+}
+.dark #my-portfolio h1 {
+  color: #000;
+}
+.dark #my-portfolio .card {
+  background-color: white;
+}
+.dark #my-experience h1 {
+  color: black;
+}
+
+.dark #my-skills h1 {
+  color: black;
+}
+.dark #my-services .main-inner i {
+  color: black;
+}
+.dark #footers .quick-Link h3 {
+  color: black;
+}
+.dark #title-name h5 {
+  color: black;
+}
+.dark #my-skills span.title {
+  color: black;
+}
+.dark #my-skills h3 {
+  color: black;
+}

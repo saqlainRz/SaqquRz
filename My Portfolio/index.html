@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY Portfolio</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/dark.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script>
+      function myFunction() {
+        var a = document.body;
+
+        a.classList.toggle("dark");
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- start header -->
+
+    <section id="header">
+      <nav id="navebar">
+        <div class="main_header">
+          <div class="top_header">
+            <div class="image_header">
+              <a href="">
+                <img
+                  src="./images/IMG_20210905_180756_-_Copy__3_-removebg-preview.png"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="bars">
+              <i class="fa fa-bars"></i>
+            </div>
+          </div>
+
+          <div class="nave_header">
+            <ul class="nav-links">
+              <li class="nav-link"><a href="#">Home</a></li>
+              <li class="nav-link"><a href="#">About</a></li>
+              <li class="nav-link"><a href="#">Service</a></li>
+              <li class="nav-link"><a href="#my-experience">Experience</a></li>
+              <li class="nav-link"><a href="#">Portfolio</a></li>
+            </ul>
+          </div>
+          <ul class="nav-links">
+            <div class="nav night-mode_header">
+              <li class="nav-link">
+                <a href="#"
+                  ><i onclick="myFunction()" class="bi bi-brightness-high"></i
+                ></a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!-- end header -->
+
+    <!-- start banner -->
+
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <small style="color: #7b7b7b">WELCOME TO MY PORTFOLIO</small>
+            <h1>
+              I'am <span>Saqlain Raza <br />a</span>
+              <span class="animatedtext"></span>
+            </h1>
+
+            <div class="element-section">
+              <div class="row">
+                <div class="col-md-6">
+                  <p>find with me</p>
+                  <div class="nav_icon">
+                    <ul>
+                      <li>
+                        <a><i class="bi bi-linkedin"></i></a>
+                      </li>
+                      <li>
+                        <a><i class="bi bi-instagram"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end col -->
+
+                <div class="col-md-6">
+                  <p>best skills on</p>
+                  <div class="nav_icon">
+                    <ul>
+                      <li>
+                        <a><i class="bi bi-bootstrap-fill"></i></a>
+                      </li>
+                      <li>
+                        <a><i class="bi bi-filetype-js"></i></a>
+                      </li>
+                      <li>
+                        <a><i class="bi bi-filetype-jsx"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- image col 4 -->
+
+          <div class="col-md-4 employee-1">
+            <div class="employee">
+              <div class="employee-image">
+                <img
+                  src="./images/IMG_20210905_180756_-_Copy__3_-removebg-preview.png"
+                  class="img-fluid d-block m-auto"
+                  alt="employee-image"
+                />
+              </div>
+              <div class="employee-details">
+                <div class="employee-name">
+                  <h1 class="text-center">
+                    Saqlain<br /><span class="employee-role">Developer</span>
+                  </h1>
+                </div>
+                <div class="employee-social-link">
+                  <ul>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-square-twitter"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-google-plus"></i></li>
+                    <li><i class="fa-brands fa-square-behance"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+      </div>
+    </section>
+
+    <!-- end banner -->
+
+    <!-- start service -->
+
+    <section id="my-services">
+      <div class="container">
+        <h1><span>MY</span>SERVICES</h1>
+        <div class="row g-4 p-1">
+          <div class="col-md-4">
+            <div class="card-content p-4">
+              <div class="main-inner">
+                <div class="content-inner">
+                  <i class="bi-code-slash"></i>
+                </div>
+                <h4 class="card-title">Web Designer</h4>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-content p-4">
+              <div class="main-inner">
+                <div class="content-inner">
+                  <i class="bi-bezier"></i>
+                </div>
+                <h4 class="card-title">UI/UX Design</h4>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-content p-4">
+              <div class="main-inner">
+                <div class="content-inner">
+                  <i class="bi-tablet"></i>
+                </div>
+                <h4 class="card-title">Responsive Design</h4>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+      </div>
+    </section>
+
+    <!-- end service -->
+
+    <!-- start protfolio -->
+    <section id="my-portfolio">
+      <div class="container">
+        <h1><span>My</span>Portfolio</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card p-2">
+              <div class="box">
+                <div class="card-image">
+                  <img
+                    class="main-image"
+                    src="./images/markus-spiske-iABDznUDy6c-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-title">
+                  <h5>DEVELOPMENT</h5>
+                  <h4>Dashboard-Bootstrap-4</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-2">
+              <div class="box">
+                <div class="card-image">
+                  <img
+                    class="main-image"
+                    src="./images/markus-spiske-iABDznUDy6c-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-title">
+                  <h5>DEVELOPMENT</h5>
+                  <h4>Dashboard-Bootstrap-4</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-2">
+              <div class="box">
+                <div class="card-image">
+                  <img
+                    class="main-image"
+                    src="./images/markus-spiske-iABDznUDy6c-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-title">
+                  <h5>DEVELOPMENT</h5>
+                  <h4>Dashboard-Bootstrap-4</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-2">
+              <div class="box">
+                <div class="card-image">
+                  <img
+                    class="main-image"
+                    src="./images/markus-spiske-iABDznUDy6c-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-title">
+                  <h5>DEVELOPMENT</h5>
+                  <h4>Dashboard-Bootstrap-4</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-2">
+              <div class="box">
+                <div class="card-image">
+                  <img
+                    class="main-image"
+                    src="./images/markus-spiske-iABDznUDy6c-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-title">
+                  <h5>DEVELOPMENT</h5>
+                  <h4>Dashboard-Bootstrap-4</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card p-2">
+              <div class="box">
+                <div class="card-image">
+                  <img
+                    class="main-image"
+                    src="./images/markus-spiske-iABDznUDy6c-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-title">
+                  <h5>DEVELOPMENT</h5>
+                  <h4>Dashboard-Bootstrap-4</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+      </div>
+    </section>
+
+    <!-- end protfolio -->
+
+    <!-- start experinece -->
+    <section id="my-experience">
+      <div class="container">
+        <h1><span>MY</span>EXPERIENECE</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Job Experience</h4>
+
+            <div class="experience-card">
+              <div class="experience-content p-4">
+                <div class="experience-titles">
+                  <div class="experience-title">
+                    <h4>Web & Graphic Designer</h4>
+                    <p>15 Mar 2015 30 Sep 2016</p>
+                  </div>
+                  <hr class="my-3" />
+                  <p>I worked there as web designer and graphics designer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="experience-card">
+              <div class="experience-content p-4">
+                <div class="experience-titles">
+                  <div class="experience-title">
+                    <h4>Web & Graphic Designer</h4>
+                    <p>15 Mar 2015 30 Sep 2016</p>
+                  </div>
+                  <hr class="my-3" />
+                  <p>I worked there as web designer and graphics designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- two -->
+          <div class="col-md-6">
+            <h4>Education</h4>
+            <div class="experience-card">
+              <div class="experience-content p-4">
+                <div class="experience-titles">
+                  <div class="experience-title">
+                    <h4>Web & Graphic Designer</h4>
+                    <p>15 Mar 2015 30 Sep 2016</p>
+                  </div>
+                  <hr class="my-3" />
+                  <p>I worked there as web designer and graphics designer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="experience-card">
+              <div class="experience-content p-4">
+                <div class="experience-titles">
+                  <div class="experience-title">
+                    <h4>Web & Graphic Designer</h4>
+                    <p>15 Mar 2015 30 Sep 2016</p>
+                  </div>
+                  <hr class="my-3" />
+                  <p>I worked there as web designer and graphics designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+      </div>
+    </section>
+    <!-- end experinece -->
+
+    <!-- start myskill -->
+
+    <section id="my-skills">
+      <div class="container">
+        <h1><span>MY</span>SKILLS</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Design Skills</h3>
+            <div class="main-skill">
+              <div class="parent-skill">
+                <div class="skill">
+                  <div class="progress" data-progress="80">
+                    <span class="progress-number">0%</span>
+                  </div>
+                </div>
+                <span class="title">HTML</span>
+              </div>
+
+              <div class="parent-skill">
+                <div class="skill">
+                  <div class="progress" data-progress="70">
+                    <span class="progress-number">0%</span>
+                  </div>
+                </div>
+                <span class="title">CSS</span>
+              </div>
+
+              <div class="parent-skill">
+                <div class="skill">
+                  <div class="progress" data-progress="60">
+                    <span class="progress-number">0%</span>
+                  </div>
+                </div>
+                <span class="title">BOOTSTRAP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h3>Development Skills</h3>
+
+            <div class="main-skill">
+              <div class="parent-skill">
+                <div class="skill">
+                  <div class="progress" data-progress="65">
+                    <span class="progress-number">0%</span>
+                  </div>
+                </div>
+                <span class="title">JAVASCRIPT</span>
+              </div>
+
+              <div class="parent-skill">
+                <div class="skill">
+                  <div class="progress" data-progress="60">
+                    <span class="progress-number">0%</span>
+                  </div>
+                </div>
+                <span class="title">REACT.JS</span>
+              </div>
+
+              <div class="parent-skill">
+                <div class="skill">
+                  <div class="progress" data-progress="50">
+                    <span class="progress-number">0%</span>
+                  </div>
+                </div>
+                <span class="title">NODE.JS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" />
+      </div>
+    </section>
+
+    <!-- end myskill -->
+
+    <!-- start footer -->
+
+    <section id="footers">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-icons">
+              <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-square-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6">
+            <div class="quick-Link">
+              <h3>Quick Link</h3>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6">
+            <div class="quick-Link">
+              <h3>Developer</h3>
+              <ul>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Authentication</a></li>
+                <li><a href="#">API Reference</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Open Source</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="my-3" />
+      </div>
+    </section>
+
+    <!-- end footer -->
+
+    <!-- start title -->
+
+    <section id="title-name">
+      <div class="container">
+        <h5>© 2023. All rights reserved by Saqlain Raza</h5>
+      </div>
+    </section>
+
+    <!-- end title -->
+  </body>
+  <!-- custom js -->
+  <script src="./js/index.js"></script>
+  <!--Bootstrap  -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <!-- jqery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 50) {
+        $(".main_header").addClass("sticky");
+      } else {
+        $(".main_header").removeClass("sticky");
+      }
+    });
+  </script>
+</html>
